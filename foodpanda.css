@@ -1,0 +1,41 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color:rgb(238, 233, 227);
+      }
+    .mainbox{
+        height: 200px;
+        position: absolute;
+        left: -40px;
+        top: -40px;
+        background-image: url(./image/food.PNG);
+        z-index: -1;
+        width: 800px;
+        background-size: cover;
+        border: none;
+        border-radius:0px;
+    }
+    div{
+       border:3px solid white;
+        background-color:whitesmoke;
+        z-index:1;
+        width: 500px;
+        padding:0px 20px 20px 20px;
+        margin:40px 10px 10px 40px;
+        border-radius:15px;
+        font-family: "DM Sans", sans-serif;
+        
+    }
+
+
+.button{
+    background-color:rgb(252, 3, 107);
+    color:white;
+    padding:10px 10px 10px 10px;
+    border-color:rgb(252, 3, 107);
+    border-radius:10px;
+    z-index:1;
+}
+
+
+

@@ -1,0 +1,42 @@
+body{
+    background-color:#9AD0C2; 
+ 
+ } 
+ h1{
+     background-color:#088395;
+     width:400px;
+     text-align: center;
+     text-decoration: underline;
+    
+ }
+ table{
+     overflow: hidden;
+     backdrop-filter: blur(7px);
+ }
+ .firstline{
+     background-color: #008395;
+ 
+ }
+ 
+ img{
+     height:30px;
+     width:30px;
+     border:none;
+ }
+ .Delivered{
+     background-color: #34eba8;
+     border-radius: 30px;
+     text-align: center;
+    
+ }
+ .Cancelled{
+     background-color: #d03d3d;
+     border-radius: 30px;
+     text-align: center;
+     
+ }
+ .shipped{
+     background-color: #5394b7;
+     border-radius: 30px;
+     text-align: center;
+ }
