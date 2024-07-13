@@ -6,37 +6,102 @@ body{
 
 
 .header{
-    background-color: orangered;
-    height:30px;
+    background-color: rgb(237, 81, 19);
+    height:50px;
     width:100%;
-    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    font-size: smaller;
+   
+     
  }
 
-span{
-    /* display:inline-flex;
-    justify-content: space-between;
-    gap:2px */
-    margin-right:20px ;
-    font-size: smaller;
+a{
+    color:black;
+    text-decoration: none;
 }
-.length{
+.mainbody{
+     display: flex;
+     justify-content:center;
+     gap:20px;
+}
+#item1{
+    margin-left: 10px;
+   margin-top: 10px; 
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    background-color:rgb(246, 118, 83);
+
+
+}
+#item2{
+    margin-right: 10px;
+    margin-top: 10px;
+    height:250px;
+    width:50px;
+    border-radius: 10px;
+    background-color:rgb(246, 118, 83);
+    flex-grow: 1;
+   display:flex;
+   justify-content:space-evenly;
+
+}
+
+img{
+    height:200px;
+    width: 100px;
+
+    border:2px solid black;
+    border-radius: 10px;
+   
+}
+figcaption{
+    font-size: 10px;
+}
+.footer{
+    margin-top: 10px;
+    background-color: rgb(237, 81, 19);
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+  align-content: baseline;
+    font-size:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .length{
     width:300px;
     height:20px;
+   
+    /* flex-grow:1; */
     /* border:2px solid black;
     border-radius: 30px; */
-}
- .mainbody{
-    display:inline-flex;
-    justify-content: flex-start;
+ /* .mainbody{
+  
+    background-color: orangered;
     border:2px solid black;
     border-radius:20px;
     height:250px;
-    width:200px;
-    padding:10px 10px 10px 10px;
-    margin:10px 10px 10px 10px;
+    width:200px; 
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
 
-}
-/* .mainbody2{
+} */
+/* .mainbody2{padding:10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
     display:inline-block;
     border:2px solid black;
     border-radius:20px;
@@ -46,7 +111,7 @@ span{
     margin-top: 10px;
     margin-left: 30px;} */
 
-.footer{
+/* .footer{
     background-color: orangered;
     height:70px;
     width:800px;
@@ -62,4 +127,4 @@ span{
  }
  .item{
     font-size:15px;;
- }
+ } */

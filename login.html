@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+.spin{
+    height: 100px;
+    width: 100px;
+    border:5px solid rgb(231, 226, 217);
+    border-top:5px solid gray;
+    z-index: -1;
+    margin: 90px auto;
+    border-radius: 50%;
+    animation: spin 2s ease 0s infinite normal ;
+}
+p{
+    margin-top: -160px;
+    margin-left:385px; 
+    width:100px;
+    z-index:3;
+
+}
+
+
+@keyframes spin {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+</style>
+<body>
+    
+    <div class="spin">
+        
+    </div>
+
+    <p>Try Again</p>
+   
+
+
+</body>
+</html>
